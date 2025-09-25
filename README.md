@@ -7,27 +7,13 @@ This project implements a machine learning model to predict whether a person has
 The project uses the PIMA Indians Diabetes Dataset, which contains health-related data for female patients of Pima Indian heritage.
 
 ⦁	Total Samples (Rows): 768
-⦁	
 ⦁	Total Features (Columns): 9
-⦁	
 ⦁	Distribution of Outcome:
 	1. Non-Diabetic (0): 500
 	2. Diabetic (1): 268
 
 **🛠 Dependencies**
-The following Python libraries are required to run this project:
-
-numpy
-
-pandas
-
-sklearn (specifically StandardScaler, train_test_split, svm, accuracy_score)
-
-You can install them using pip:
-
-Bash
-
-pip install numpy pandas scikit-learn
+The following Python libraries are required to run this project:numpy, pandas, sklearn (specifically StandardScaler, train_test_split, svm, accuracy_score)
 
 **🔬 Data Preprocessing and Analysis**
 Data Loading: The diabetes.csv file is loaded into a pandas DataFrame.
@@ -51,5 +37,5 @@ A Support Vector Machine (SVM) classifier with a linear kernel is used for train
 The model is evaluated using the accuracy score on both the training and test datasets.
 
 Dataset	Accuracy Score
-Training Data	$\mathbf{78.66%}$
-Test Data	$\mathbf{77.27%}$
+Training Data	78.66%
+Test Data	77.27%
